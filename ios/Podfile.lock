@@ -1,0 +1,70 @@
+PODS:
+  - Adyen (5.11.0):
+    - Adyen/Actions (= 5.11.0)
+    - Adyen/Card (= 5.11.0)
+    - Adyen/Components (= 5.11.0)
+    - Adyen/Core (= 5.11.0)
+    - Adyen/DropIn (= 5.11.0)
+    - Adyen/Encryption (= 5.11.0)
+    - Adyen/Session (= 5.11.0)
+  - Adyen/Actions (5.11.0):
+    - Adyen/Core
+    - Adyen3DS2 (= 2.4.2)
+  - Adyen/Card (5.11.0):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Components (5.11.0):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Core (5.11.0):
+    - AdyenNetworking (= 2.0.0)
+  - Adyen/DropIn (5.11.0):
+    - Adyen/Actions
+    - Adyen/Card
+    - Adyen/Components
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Encryption (5.11.0):
+    - Adyen/Core
+  - Adyen/Session (5.11.0):
+    - Adyen/Actions
+    - Adyen/Core
+  - Adyen3DS2 (2.4.2)
+  - adyen_checkout (0.0.1):
+    - Adyen (= 5.11.0)
+    - Flutter
+  - AdyenNetworking (2.0.0)
+  - Flutter (1.0.0)
+  - pay_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - adyen_checkout (from `.symlinks/plugins/adyen_checkout/ios`)
+  - Flutter (from `Flutter`)
+  - pay_ios (from `.symlinks/plugins/pay_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Adyen
+    - Adyen3DS2
+    - AdyenNetworking
+
+EXTERNAL SOURCES:
+  adyen_checkout:
+    :path: ".symlinks/plugins/adyen_checkout/ios"
+  Flutter:
+    :path: Flutter
+  pay_ios:
+    :path: ".symlinks/plugins/pay_ios/ios"
+
+SPEC CHECKSUMS:
+  Adyen: bf6d9c1821c62b498f4ce0d8f2c14ef1ee718e4a
+  Adyen3DS2: aaa0a86c89f4f5d482d20894b2f91e91a63aee6b
+  adyen_checkout: 201623c6983b86164d9af028a56d4fbe8002bf10
+  AdyenNetworking: 49e447632b542e08c6dd06bb47ea1077a8adecb7
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  pay_ios: 8c7beb9c61d885f3f51b61f75f8793023fc8843a
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.14.3
