@@ -42,8 +42,9 @@ dependencies:
   flutter_svg: ^1.1.0
   flutter_riverpod: ^1.0.4
   flutter_multi_formatter: ^2.5.7
-  flutter_adyen_cse: ^0.0.1
-  mobile_scanner: ^3.5.5
+  # flutter_adyen_cse: ^0.0.1
+  adyen_checkout: ^1.0.2
+  mobile_scanner: ^5.2.3
   geolocator: ^10.0.0
   lottie: ^1.3.0
   camera: ^0.10.4
@@ -63,7 +64,7 @@ dependencies:
   flutter_secure_storage: ^6.0.0
   mqtt_client: ^9.7.2
   flutter_modular: ^5.0.3
-  share_plus: ^4.5.2
+  share_plus: ^10.0.2
   flutter_driver:
     sdk: flutter
   pin_code_fields: ^7.4.0
@@ -83,7 +84,7 @@ dependencies:
   collection: ^1.16.0
   fluttertoast: ^8.2.1
   email_validator: ^2.1.17
-  intl: ^0.18.0
+  intl: ^0.19.0
   firebase_core: ^2.24.2
   firebase_crashlytics: ^3.4.9
   firebase_remote_config: ^4.3.8
@@ -102,10 +103,7 @@ dependencies:
   styled_text: ^7.0.0
   sliding_up_panel: ^2.0.0+1
   intercom_flutter: ^8.0.3
-  flutter_naver_map:
-    git:
-      url: https://github.com/ridebeam/flutter_naver_map.git
-      ref: 9e60557d1f08b0824b89abc7ae64945f1049a789
+  flutter_naver_map: ^1.3.0+1
   vector_math: ^2.1.4
   fluster: ^1.2.0
   in_app_review: ^2.0.6
@@ -131,6 +129,9 @@ dependencies:
   latlong2: ^0.9.0
   maps_toolkit: ^3.0.0
   pub_semver: ^2.1.4
+
+dependency_overrides:
+  flutter_inappwebview: ^6.1.0+1
 
 dev_dependencies:
   flutter_test:
